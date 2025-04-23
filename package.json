@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "docker compose -f infra/compose.yaml up -d && next dev",
     "lint:check": "prettier --check .",
-    "lint:fix": "prettier --write .:",
+    "lint:fix": "prettier --write .",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "services:up": "docker compose -f infra/compose.yaml up -d",
